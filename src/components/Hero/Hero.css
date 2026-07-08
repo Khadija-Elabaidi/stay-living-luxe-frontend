@@ -1,0 +1,183 @@
+.hero-section {
+  position: relative;
+  height: 92vh;
+  min-height: 640px;
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--color-ink, #0f172a); 
+}
+.hero-slide-wrapper {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(0.18) saturate(1.15) contrast(1.05) brightness(0.72);
+}
+
+.hero-gradient-right {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.4), transparent);
+}
+
+.hero-gradient-top {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to top, rgba(15, 23, 42, 0.7), transparent, rgba(15, 23, 42, 0.2));
+}
+
+.hero-content-container {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  max-width: 80rem; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-content-container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+.hero-text-block {
+  max-width: 36rem;
+}
+
+.hero-title {
+  font-family: var(--font-display, serif);
+  color: #ffffff;
+  line-height: 0.95;
+}
+
+.hero-title-main, 
+.hero-title-accent {
+  display: block;
+  font-size: 3.75rem; 
+}
+
+@media (min-width: 640px) {
+  .hero-title-main, .hero-title-accent {
+    font-size: 4.5rem; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title-main, .hero-title-accent {
+    font-size: 5.2rem;
+  }
+}
+
+.hero-title-accent {
+  color: var(--color-gold-light, #BA9461);
+  font-style: italic;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-subtitle {
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.125rem; 
+  font-weight: 300;
+  tracking: wide;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-cta-button {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding: 1rem 2.25rem;
+  background-color: var(--color-gold, #BA9461);
+  color: var(--color-ink, #0f172a);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transition: background-color 2ms ease;
+  text-decoration: none;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-cta-button:hover {
+  background-color: var(--color-gold-dark, #BA9461);
+}
+
+.hero-pagination {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero-dot {
+  position: relative;
+  height: 0.375rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 1s ease;
+  border: none;
+  cursor: pointer;
+  width: 8px;
+}
+
+.hero-dot.active {
+  width: 32px;
+}
+
+.hero-dot-active-indicator {
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-gold, #BA9461);
+}
+
+.hero-scroll-indicator {
+  display: none;
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 640px) {
+  .hero-scroll-indicator {
+    display: flex;
+  }
+}
+
+.hero-scroll-text {
+  font-size: 0.6rem;
+  letter-spacing: 0.25em; 
+  transform: rotate(90deg) translateY(1rem);
+  transform-origin: center;
+}
+
+.hero-scroll-line {
+  width: 1px;
+  height: 2.5rem;
+  background-image: linear-gradient(to bottom, var(--color-gold,#BA9461), transparent);
+  margin-top: 1.5rem;
+}
