@@ -46,7 +46,7 @@ export default function About() {
 
             <img
 
-              src="/public/images/hero (2).png"
+              src="/images/hero (2).png"
 
               alt="Intérieur Stay Living Luxe"
 

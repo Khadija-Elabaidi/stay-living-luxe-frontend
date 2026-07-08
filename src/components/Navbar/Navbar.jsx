@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="navbar" >
       <div className="navbar-logo">
         <img 
-          src="/public/images/logo (3).png" 
+          src="/images/logo (3).png" 
           alt="Stay Living Luxe" 
           className="logo-img"
         />

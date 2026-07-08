@@ -2,21 +2,21 @@
 
 export const heroSlides = [
   {
-    img: "/public/images/hero (2).png",
+    img: "/images/hero (2).png",
     eyebrow: "L'art de séjourner avec élégance",
     title: 'STAY LIVING',
     titleAccent: 'LUXE',
     subtitle: 'à Agadir',
   },
   {
-    img: '/public/images/hero1.jpg',
+    img: '/images/hero1.jpg',
     eyebrow: 'Séjours de prestige',
     title: 'DES ADRESSES',
     titleAccent: "D'EXCEPTION",
     subtitle: 'au cœur de la ville ',
   },
   {
-    img: '/public/images/hero3.jpg',
+    img: '/images/hero3.jpg',
     eyebrow: 'Un accueil sur mesure',
     title: 'VIVEZ',
     titleAccent: 'Agadir',
@@ -55,7 +55,7 @@ export const listings = [
     baths: 2,
     guests: 4,
     price: 120,
-    img: '/src/assets/images/apartements/room1.jpg',
+    img: '/images/apartements/room1.jpg',
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ export const listings = [
     baths: 2,
     guests: 6,
     price: 150,
-    img: '/src/assets/images/apartements/badroom1.jpg',
+    img: '/images/apartements/badroom1.jpg',
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const listings = [
     baths: 2,
     guests: 4,
     price: 180,
-    img: '/src/assets/images/apartements/room-log4.jpg',
+    img: '/images/apartements/room-log4.jpg',
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ export const listings = [
     baths: 1,
     guests: 2,
     price: 95,
-    img: '/src/assets/images/apartements/totilet.jpg',
+    img: '/images/apartements/totilet.jpg',
   },
   {
     id: 5,
@@ -91,7 +91,7 @@ export const listings = [
     baths: 3,
     guests: 8,
     price: 320,
-    img: '/src/assets/images/apartements/room-log2.jpg',
+    img: '/images/apartements/room-log2.jpg',
   },
 ]
 
@@ -105,15 +105,15 @@ export const services = [
 ]
 
 export const gallery = [
-  '/src/assets/images/apartements/badroom1.jpg',
-  '/src/assets/images/apartements/room-log2.jpg',
-  '/src/assets/images/apartements/room-log4.jpg',
-  '/src/assets/images/apartements/room1.jpg',
-  '/src/assets/images/apartements/totilet.jpg',
-  '/public/images/hero (2).png',
-  '/public/images/hero1.jpg',
-  '/public/images/hero3.jpg',
-  '/src/assets/images/apartements/room-log5.jpg',
+  '/images/apartements/badroom1.jpg',
+  '/images/apartements/room-log2.jpg',
+  '/images/apartements/room-log4.jpg',
+  '/images/apartements/room1.jpg',
+  '/images/apartements/totilet.jpg',
+  '/images/hero (2).png',
+  '/images/hero1.jpg',
+  '/images/hero3.jpg',
+  '/images/apartements/room-log5.jpg',
   
   
 
